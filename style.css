@@ -1,4 +1,5 @@
 * {
+  
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -7,9 +8,13 @@
 body{
     background-color: black;
 }
+.headersearch{
+  display: grid;
+ grid-template-columns: repeat(auto-fit,minmax(16rem,1fr));
+
+}
 .imgbackgruond{
   display: grid;
-  grid-template-columns:repeat(1fr);
    width: calc(100% - 1rem);
   margin: 30px auto;
 }
@@ -21,8 +26,10 @@ body{
   color:whitesmoke;
 }
 #search{
+  display:inline-grid;
+  
   display: inline;
-  margin-left: 20rem;
+  margin-left: 10rem;
     height: 3rem;
     width: 15rem;
     text-align: center;
